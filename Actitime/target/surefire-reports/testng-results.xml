@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[Launch the Browser]]>
+    </line>
+    <line>
+      <![CDATA[Login to Application]]>
+    </line>
+    <line>
+      <![CDATA[actiTIME - Enter Time-Track]]>
+    </line>
+    <line>
+      <![CDATA[actiTIME - Enter Time-Track]]>
+    </line>
+    <line>
+      <![CDATA[logout the Appliaction]]>
+    </line>
+    <line>
+      <![CDATA[Login to Application]]>
+    </line>
+    <line>
+      <![CDATA[logout the Appliaction]]>
+    </line>
+    <line>
+      <![CDATA[Launch the Browser]]>
+    </line>
+    <line>
+      <![CDATA[Login to Application]]>
+    </line>
+    <line>
+      <![CDATA[logout the Appliaction]]>
+    </line>
+    <line>
+      <![CDATA[Login to Application]]>
+    </line>
+    <line>
+      <![CDATA[logout the Appliaction]]>
+    </line>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="80963" started-at="2019-03-11T19:04:02Z" finished-at="2019-03-11T19:05:23Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="80963" started-at="2019-03-11T19:04:02Z" finished-at="2019-03-11T19:05:23Z">
+      <class name="com.actitime.logintest.VerifyHomePageTest">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.actitime.logintest.VerifyHomePageTest@6fb554cc]" name="configBC" is-config="true" duration-ms="15218" started-at="2019-03-12T00:34:02Z" finished-at="2019-03-12T00:34:17Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Launch the Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="logintoApp()[pri:0, instance:com.actitime.logintest.VerifyHomePageTest@6fb554cc]" name="logintoApp" is-config="true" duration-ms="8006" started-at="2019-03-12T00:34:17Z" finished-at="2019-03-12T00:34:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login to Application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logintoApp -->
+        <test-method status="PASS" signature="verifyHomePageTest()[pri:0, instance:com.actitime.logintest.VerifyHomePageTest@6fb554cc]" name="verifyHomePageTest" duration-ms="13602" started-at="2019-03-12T00:34:25Z" finished-at="2019-03-12T00:34:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[actiTIME - Enter Time-Track]]>
+            </line>
+            <line>
+              <![CDATA[actiTIME - Enter Time-Track]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTest -->
+        <test-method status="PASS" signature="logouttoApp()[pri:0, instance:com.actitime.logintest.VerifyHomePageTest@6fb554cc]" name="logouttoApp" is-config="true" duration-ms="3089" started-at="2019-03-12T00:34:39Z" finished-at="2019-03-12T00:34:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[logout the Appliaction]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logouttoApp -->
+        <test-method status="PASS" signature="logintoApp()[pri:0, instance:com.actitime.logintest.VerifyHomePageTest@6fb554cc]" name="logintoApp" is-config="true" duration-ms="2806" started-at="2019-03-12T00:34:42Z" finished-at="2019-03-12T00:34:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login to Application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logintoApp -->
+        <test-method status="PASS" signature="verifyLogoOnHomePage()[pri:0, instance:com.actitime.logintest.VerifyHomePageTest@6fb554cc]" name="verifyLogoOnHomePage" duration-ms="287" started-at="2019-03-12T00:34:44Z" finished-at="2019-03-12T00:34:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoOnHomePage -->
+        <test-method status="PASS" signature="logouttoApp()[pri:0, instance:com.actitime.logintest.VerifyHomePageTest@6fb554cc]" name="logouttoApp" is-config="true" duration-ms="2632" started-at="2019-03-12T00:34:45Z" finished-at="2019-03-12T00:34:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[logout the Appliaction]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logouttoApp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.actitime.logintest.VerifyHomePageTest@6fb554cc]" name="closeBrowser" is-config="true" duration-ms="347" started-at="2019-03-12T00:34:47Z" finished-at="2019-03-12T00:34:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.actitime.logintest.VerifyHomePageTest -->
+      <class name="com.actitime.customertest.createCustomerTest">
+        <test-method status="PASS" signature="configBS()[pri:0, instance:com.actitime.customertest.createCustomerTest@4cb2c100]" name="configBS" is-config="true" duration-ms="20" started-at="2019-03-12T00:34:02Z" finished-at="2019-03-12T00:34:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.actitime.customertest.createCustomerTest@4cb2c100]" name="configBC" is-config="true" duration-ms="5406" started-at="2019-03-12T00:34:48Z" finished-at="2019-03-12T00:34:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Launch the Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="logintoApp()[pri:0, instance:com.actitime.customertest.createCustomerTest@4cb2c100]" name="logintoApp" is-config="true" duration-ms="7145" started-at="2019-03-12T00:34:53Z" finished-at="2019-03-12T00:35:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login to Application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logintoApp -->
+        <test-method status="PASS" signature="createCustomerTest()[pri:0, instance:com.actitime.customertest.createCustomerTest@4cb2c100]" name="createCustomerTest" duration-ms="7245" started-at="2019-03-12T00:35:00Z" finished-at="2019-03-12T00:35:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomerTest -->
+        <test-method status="PASS" signature="logouttoApp()[pri:0, instance:com.actitime.customertest.createCustomerTest@4cb2c100]" name="logouttoApp" is-config="true" duration-ms="2874" started-at="2019-03-12T00:35:07Z" finished-at="2019-03-12T00:35:10Z">
+          <reporter-output>
+            <line>
+              <![CDATA[logout the Appliaction]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logouttoApp -->
+        <test-method status="PASS" signature="logintoApp()[pri:0, instance:com.actitime.customertest.createCustomerTest@4cb2c100]" name="logintoApp" is-config="true" duration-ms="3190" started-at="2019-03-12T00:35:10Z" finished-at="2019-03-12T00:35:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login to Application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logintoApp -->
+        <test-method status="PASS" signature="createcustomerwithdescription()[pri:0, instance:com.actitime.customertest.createCustomerTest@4cb2c100]" name="createcustomerwithdescription" duration-ms="5007" started-at="2019-03-12T00:35:14Z" finished-at="2019-03-12T00:35:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createcustomerwithdescription -->
+        <test-method status="PASS" signature="logouttoApp()[pri:0, instance:com.actitime.customertest.createCustomerTest@4cb2c100]" name="logouttoApp" is-config="true" duration-ms="2589" started-at="2019-03-12T00:35:19Z" finished-at="2019-03-12T00:35:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[logout the Appliaction]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logouttoApp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.actitime.customertest.createCustomerTest@4cb2c100]" name="closeBrowser" is-config="true" duration-ms="1495" started-at="2019-03-12T00:35:21Z" finished-at="2019-03-12T00:35:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.actitime.customertest.createCustomerTest@4cb2c100]" name="configAC" is-config="true" duration-ms="1" started-at="2019-03-12T00:35:23Z" finished-at="2019-03-12T00:35:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.actitime.customertest.createCustomerTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
